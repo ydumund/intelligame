@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import java.lang.Double?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="800" prefWidth="650">
+
+<!--    得分位置-->
+    <HBox translateX="700" translateY="40" spacing="20">
+        <Label fx:id="labelScore" textFill="royalblue" />
+    </HBox>
+
+<!--    人物生命位置-->
+    <fx:define>
+        <Double fx:id="livesX" fx:value="32" />
+        <Double fx:id="livesY" fx:value="16" />
+    </fx:define>
+
+<!--    房子生命位置-->
+    <fx:define>
+        <Double fx:id="houseLivesX" fx:value="32" />
+        <Double fx:id="houseLivesY" fx:value="64" />
+    </fx:define>
+
+</Pane>
